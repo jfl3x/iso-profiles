@@ -139,7 +139,7 @@ lxterminal
 >extra light-locker
 network-manager-applet
 >extra menulibre
->extra orage
+# >extra orage #test 2023-10-30
 >extra poppler-glib       # tumbler - for PDF thumbnails
 >extra thunar-archive-plugin
 >extra thunar-shares-plugin
@@ -167,7 +167,7 @@ grub-theme-manjaro
 # >extra engrampa  # redundant with file-roller
 >extra firefox
 # >extra flashplugin
->extra galculator-gtk2
+# >extra galculator-gtk2 # test 2023-10-30
 >extra gcolor3
 >extra gimp
 >extra gparted
@@ -258,6 +258,6 @@ ufw  # firewall needs to be in every iso
 >extra qt5ct
 >extra downgrade
 >extra bmenu
->extra compton
->extra compton-conf
+# >extra compton # test 2023-10-30
+# >extra compton-conf # test 2023-10-30
 >extra transmission-gtk
