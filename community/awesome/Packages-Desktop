@@ -91,9 +91,9 @@ pamac
 
 ## Java
 # removed to reduce iso size (-36MB)
-# >extra jdk8-openjdk
-# >extra jre8-openjdk-headless
-# >extra jre8-openjdk
+>extra jdk8-openjdk
+>extra jre8-openjdk-headless
+>extra jre8-openjdk
 
 ## Printing
 >extra manjaro-printer
