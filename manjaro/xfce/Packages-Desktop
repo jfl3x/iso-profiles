@@ -259,3 +259,8 @@ xiccd # enable color profile settings
 > extra nano
 > extra blender
 > extra neofetch
+> extra polybar
+> extra blackbox-terminal <!-- terminal -->
+<!-- dock -->
+<!-- > extra cutefish-dock -->
+<!-- > extra deepin-dock -->
