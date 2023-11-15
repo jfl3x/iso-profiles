@@ -254,8 +254,9 @@ xiccd # enable color profile settings
 > extra wine
 > extra flameshot
 > extra conky
-> extra cairo-dock
 > extra audacity
 > extra openshot
 > extra nano
 > extra blender
+> extra spotify
+> extra visual-studio-code-bin
