@@ -259,7 +259,15 @@ xiccd # enable color profile settings
 > extra nano
 > extra blender
 > extra neofetch
+> extra discord
+> extra bitwarden
+> extra inkscape
 > extra polybar
+> extra knights
+> extra kpatience
+> extra pdfarranger
+> extra htop
+> extra pdfmixtool
 > extra blackbox-terminal <!-- terminal -->
 <!-- dock -->
 <!-- > extra cutefish-dock -->
