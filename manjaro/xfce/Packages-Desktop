@@ -268,7 +268,4 @@ xiccd # enable color profile settings
 > extra pdfarranger
 > extra htop
 > extra pdfmixtool
-> extra blackbox-terminal <!-- terminal -->
-<!-- dock -->
-<!-- > extra cutefish-dock -->
-<!-- > extra deepin-dock -->
+> extra blackbox-terminal
