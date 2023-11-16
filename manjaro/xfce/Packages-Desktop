@@ -96,6 +96,7 @@ xfce4-terminal
 xfconf
 xfdesktop
 xfwm4
+xfwm4-themes
 
 ## XFCE Extras
 blueman
@@ -269,3 +270,4 @@ xiccd # enable color profile settings
 > extra htop
 > extra pdfmixtool
 > extra blackbox-terminal
+> extra obs-studio

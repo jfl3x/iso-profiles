@@ -4,15 +4,15 @@
   <property name="panels" type="array">
     <value type="int" value="0"/>
     <property name="panel-0" type="empty">
-      <property name="position" type="string" value="p=10;x=0;y=0"/>
+      <property name="position" type="string" value="p=0;x=960;y=916;"/>
       <property name="length" type="double" value="6"/>
       <property name="position-locked" type="bool" value="true"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="8"/>
         <value type="int" value="2"/>
-        <value type="int" value="3"/>
         <value type="int" value="4"/>
-        <value type="int" value="1"/>
+        <value type="int" value="7"/>
+        <value type="int" value="6"/>
       </property>
       <property name="role" type="string" value="xfce4-panel-12965750720"/>
       <property name="length-adjust" type="bool" value="true"/>
@@ -20,7 +20,7 @@
       <property name="size" type="uint" value="48"/>
       <property name="mode" type="uint" value="0"/>
       <property name="autohide-behavior" type="uint" value="0"/>
-      <property name="icon-size" type="uint" value="24"/>
+      <property name="icon-size" type="uint" value="32"/>
       <property name="enable-struts" type="bool" value="true"/>
       <property name="background-rgba" type="array">
         <value type="double" value="0.26333333333333336"/>
@@ -32,9 +32,9 @@
   </property>
   <property name="plugins" type="empty">
     <property name="plugin-8" type="string" value="whiskermenu">
-      <property name="button-icon" type="string" value="/usr/share/icons/whiskermenu-manjaro.svg"/>
-      <property name="menu-width" type="int" value="500"/>
-      <property name="menu-height" type="int" value="600"/>
+      <property name="button-icon" type="string" value="/usr/share/icons/manjaro/white/white.svg"/>
+      <property name="menu-width" type="int" value="400"/>
+      <property name="menu-height" type="int" value="519"/>
       <property name="command-switchuser" type="string" value="dm-tool switch-to-greeter"/>
       <property name="show-command-switchuser" type="bool" value="true"/>
       <property name="favorites" type="array">
@@ -45,16 +45,47 @@
       </property>
       <property name="menu-opacity" type="int" value="75"/>
     </property>
-    <property name="plugin-1" type="string" value="thunar-tpa"/>
     <property name="plugin-2" type="string" value="directorymenu">
     </property>
-    <property name="plugin-3" type="string" value="separator"/>
     <property name="plugin-4" type="string" value="tasklist">
       <property name="show-handle" type="bool" value="false"/>
       <property name="show-tooltips" type="bool" value="false"/>
       <property name="flat-buttons" type="bool" value="true"/>
       <property name="show-labels" type="bool" value="false"/>
     </property>
+    <property name="plugin-6" type="string" value="weather">
+      <property name="location" type="empty">
+      </property>
+      <property name="msl" type="int" value="20"/>
+      <property name="timezone" type="string" value="America/Toronto"/>
+      <property name="offset" type="string" value="-05:00"/>
+      <property name="cache-max-age" type="int" value="172800"/>
+      <property name="power-saving" type="bool" value="true"/>
+      <property name="units" type="empty">
+        <property name="temperature" type="int" value="0"/>
+        <property name="pressure" type="int" value="0"/>
+        <property name="windspeed" type="int" value="0"/>
+        <property name="precipitation" type="int" value="0"/>
+        <property name="altitude" type="int" value="0"/>
+        <property name="apparent-temperature" type="int" value="1"/>
+      </property>
+      <property name="round" type="bool" value="true"/>
+      <property name="single-row" type="bool" value="true"/>
+      <property name="tooltip-style" type="int" value="1"/>
+      <property name="forecast" type="empty">
+        <property name="layout" type="int" value="1"/>
+        <property name="days" type="int" value="5"/>
+      </property>
+      <property name="theme-dir" type="string" value="/usr/share/xfce4/weather/icons/simplistic"/>
+      <property name="scrollbox" type="empty">
+        <property name="show" type="bool" value="true"/>
+        <property name="animate" type="bool" value="true"/>
+        <property name="lines" type="int" value="1"/>
+        <property name="color" type="string" value="rgba(0,0,0,0)"/>
+        <property name="use-color" type="bool" value="false"/>
+      </property>
+    </property>
+    <property name="plugin-7" type="string" value="separator"/>
   </property>
   <property name="configver" type="int" value="2"/>
 </channel>
