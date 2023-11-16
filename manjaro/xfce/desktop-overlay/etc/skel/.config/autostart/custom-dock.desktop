@@ -1,0 +1,4 @@
+[Desktop Entry]
+Name=My Script
+Exec=/usr/share/custom-dock/center-dock.sh
+Type=Application

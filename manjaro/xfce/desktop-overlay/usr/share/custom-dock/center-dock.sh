@@ -1,0 +1,9 @@
+Xaxis=$(xrandr --current | grep '*' | uniq | awk '{print $1}' | cut -d 'x' -f1)
+Yaxis=$(xrandr --current | grep '*' | uniq | awk '{print $1}' | cut -d 'x' -f2)
+let "dockPosX=Xaxis/2"
+let "dockPosY=Yaxis-32"
+ans="p=0;x=${dockPosX};y=${dockPosY};"
+xfconf-query -c xfce4-panel -p /panels/panel-0/position -n "${ans}"
+xfconf-query -c xfce4-panel -p /panels/panel-0/position -s "${ans}"
+xfconf-query -c xfwm4 -p /general/margin_bottom -n 60
+xfconf-query -c xfwm4 -p /general/margin_bottom -s 60
