@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+name=polybar
+Exec=sh -c 'killall polybar || polybar manjaro-xfce 2>&1 | tee -a /tmp/polybar.log'
+Icon=taskbar
+StartupNotify=false
+Terminal=false
+NoDisplay=false
