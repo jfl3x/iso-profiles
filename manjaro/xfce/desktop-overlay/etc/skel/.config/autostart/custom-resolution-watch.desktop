@@ -1,0 +1,4 @@
+[Desktop Entry]
+Name=Resolution Watch
+Exec=sh ~/.config/custom-dock/resolution-watch.sh
+Type=Application
